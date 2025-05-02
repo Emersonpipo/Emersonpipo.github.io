@@ -1,0 +1,100 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Central de Fraudes Bancárias</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      background-color: #000d1a;
+      color: #00ffff;
+      font-family: 'Segoe UI', sans-serif;
+    }
+    .neon {
+      text-shadow: 0 0 5px #00ffff, 0 0 10px #00ffff, 0 0 20px #00ffff;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body class="p-4">
+  <header class="text-center neon text-3xl font-bold mb-4">
+    Central de Fraudes Bancárias
+  </header>
+
+  <nav class="flex flex-wrap justify-center gap-4 mb-8 text-sm underline text-cyan-300">
+    <a href="#intro">Início</a>
+    <a href="#tipos">Tipos de Fraude</a>
+    <a href="#ferramentas">Ferramentas</a>
+    <a href="#glossario">Glossário</a>
+    <a href="#educacao">Painel Educativo</a>
+    <a href="#contato">Contato</a>
+  </nav>
+
+  <section id="intro" class="mb-10">
+    <h2 class="text-xl neon mb-2">O que são fraudes bancárias?</h2>
+    <p class="text-cyan-100">
+      Fraudes bancárias são ações maliciosas que visam desviar valores, dados ou informações de clientes ou instituições financeiras.
+      Envolvem tecnologias, engenharia social e estruturas criminosas organizadas.
+    </p>
+  </section>
+
+  <section id="tipos" class="mb-10">
+    <h2 class="text-xl neon mb-2">Tipos de Fraude</h2>
+    <ul class="list-disc pl-6 text-cyan-100">
+      <li><strong>Fraude PIX:</strong> uso de contas laranja, engenharia social, golpe do motoboy.</li>
+      <li><strong>Phishing:</strong> sites e e-mails falsos que simulam instituições.</li>
+      <li><strong>Smishing:</strong> mensagens SMS com links maliciosos.</li>
+      <li><strong>Clonagem de chip:</strong> roubo de identidade digital por interceptação de número de telefone.</li>
+      <li><strong>Fraude com boletos e cartões:</strong> adulteração de boletos e uso indevido de cartões de crédito.</li>
+    </ul>
+  </section>
+
+  <section id="ferramentas" class="mb-10">
+    <h2 class="text-xl neon mb-2">Ferramentas de Investigação e Prevenção</h2>
+    <ul class="list-disc pl-6 text-cyan-100">
+      <li><strong>Rede Neural:</strong> detecção de contas ligadas a aliciadores com base em CPF, device, IP, Wi-Fi.</li>
+      <li><strong>Mapa de conexões:</strong> visualização de vínculos entre usuários e dispositivos.</li>
+      <li><strong>Strings de busca:</strong> palavras-chave para redes sociais, BOs e identificação de crimes.</li>
+      <li><strong>Painel analítico:</strong> dashboards com gráficos, alertas, geolocalização e risco de fraudes.</li>
+    </ul>
+  </section>
+
+  <section id="glossario" class="mb-10">
+    <h2 class="text-xl neon mb-2">Glossário Visual</h2>
+    <div class="text-cyan-100">
+      <p><strong>Chargeback:</strong> contestação de transação realizada.</p>
+      <p><strong>Device ID:</strong> identificador único de um aparelho.</p>
+      <p><strong>SSID:</strong> nome da rede Wi-Fi conectada.</p>
+      <p><strong>Conta laranja:</strong> usada por terceiros para ocultar origem de valores.</p>
+      <p><strong>Aliciador:</strong> indivíduo que coage ou recruta usuários para fraudes.</p>
+    </div>
+  </section>
+
+  <section id="educacao" class="mb-10">
+    <h2 class="text-xl neon mb-2">Painel Educativo</h2>
+    <p class="text-cyan-100 mb-2">
+      Este painel simula ataques, traz alertas de golpes recentes e mostra gráficos de fraudes por região, canal e tipo.
+    </p>
+    <ul class="list-disc pl-6 text-cyan-100">
+      <li>Mapa de calor de fraudes PIX por estado</li>
+      <li>Top 5 devices por reincidência</li>
+      <li>Ranking de CPFs vinculados a múltiplas contas</li>
+    </ul>
+  </section>
+
+  <section id="contato" class="mb-10">
+    <h2 class="text-xl neon mb-2">Contato e Contribuições</h2>
+    <p class="text-cyan-100">
+      Quer colaborar com o projeto, sugerir conteúdos ou pedir suporte? Envie um e-mail para: <a href="mailto:fraudes@projeto.com.br" class="underline text-cyan-300">fraudes@projeto.com.br</a>
+    </p>
+  </section>
+
+  <footer class="text-center text-xs text-cyan-400 border-t border-cyan-800 pt-4 mt-6">
+    &copy; 2025 Central de Fraudes Bancárias | Projeto Neon Style
+  </footer>
+</body>
+</html>
